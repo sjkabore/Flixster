@@ -21,11 +21,13 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         detailTitle = findViewById(R.id.detailTitle);
-        detailOverview = findViewById(R.id.detailTitle);
+        detailOverview = findViewById(R.id.detailOverview);
         ratingBar = findViewById(R.id.ratingBar);
 
         //String title = getIntent().getStringExtra("title");
         Movie movie = Parcels.unwrap(getIntent().getParcelableExtra("movie"));
         detailTitle.setText(movie.getTitle());
+        detailOverview.setText(movie.getOverview());
+        ratingBar.setRating((float) movie.getRating());
     }
 }

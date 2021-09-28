@@ -42,7 +42,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="https://github.com/SJKABORE/Flixster/blob/main/Flixster_Walkthrough.gif" width=250><br>
+<img src="https://github.com/SJKABORE/Flixster/blob/main/Flixster_Walkthrough_1.gif" width=250><br>
 
 ### Notes
 I had some trouble starting the project because of androidx libraries. I spent hours on this before creating a new project without selecting the option `use legacy android.support libraries`; which ultimately fixed the issues.
